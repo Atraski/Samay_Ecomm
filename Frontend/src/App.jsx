@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Carousal from './components/Carousal'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <div className="h-[100vh] bg-black text-white overflow-x-hidden">
-         <Header />
+         <Navbar />
+         <Carousal />
       </div>
     </>
   )
